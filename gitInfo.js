@@ -11,6 +11,9 @@
 
 //CODE HERE
 
+// var gitDefinition = "It's like a command line interface where you get you can save and run files and then create a connection from your files to git hub.";
+// console.log(gitDefinition);
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +21,9 @@
 */
 
 //CODE HERE
+
+// let gitHubDefinition = "GitHub is where you push your files with git.  It's an online place to store and share your code.";
+// console.log(gitHubDefinition);
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -35,6 +41,14 @@
 
 //CODE HERE
 
+// let init = new Object();
+// init.description = 'Initializes a local git repo in the current folder';
+// init.code = 'git init';
+
+
+// console.log(init.description);
+// console.log(init.code);
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +56,13 @@
 */
 
 //CODE HERE
+
+// let clone = new Object();
+// clone.description = 'Copy a repo from GitHub and put it on your machine';
+// clone.code = 'git clone REPO_URL';
+
+// console.log(clone.description);
+// console.log(clone.code);
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +72,14 @@
 
 //CODE HERE
 
+// let status = new Object();
+// status.description = 'Info about files like which ones you have added that are ready to be commited';
+// status.code = 'git status';
+
+// console.log(status.description);
+// console.log(status.code);
+
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +87,14 @@
 */
 
 //CODE HERE
+
+// let add = new Object();
+// add.description = 'Add some files or folders to be tracked';
+// add.code = 'git add (filename) or . for all files';
+
+// console.log(add.description);
+// console.log(add.code);
+
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +104,13 @@
 
 //CODE HERE
 
+// let commit = new Object();
+// commit.description = 'Creates a snapshot of files that are being tracked';
+// commit.code = 'git commit -m "(description)"';
+
+// console.log(commit.description);
+// console.log(commit.code);
+
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +119,10 @@
 */
 
 //CODE HERE
+
+let push = new Object();
+push.description = 'Actually sends the file to GitHub';
+push.code = '"git push -u origin main" (first git push) and then "git push" for each time after';
+
+console.log(push.description);
+console.log(push.code);
